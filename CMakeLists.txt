@@ -1,7 +1,9 @@
-# cmake_minimum_required(VERSION <specify CMake version here>)
-project(mephi-3-lab1)
+cmake_minimum_required(VERSION 3.17)
+project(mephi_3_lab1)
 
 set(CMAKE_CXX_STANDARD 14)
+add_executable(mephi_3_lab1
+        menu.cpp)
 
-add_executable(mephi-3-lab1 tests.cpp)
-target_link_libraries(mephi-3-lab1 gtest gtest_main)
+target_link_libraries(mephi_3_lab1 gtest gtest_main)
+

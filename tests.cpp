@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sorts.cpp"
+#include "sorts.h"
 #include "gtest/gtest.h"
 #include "string"
 
